@@ -7,13 +7,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-    <a href="https://www.linkedin.com/in/allisonneuman/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/AlliNeuman" target="_blank">GitHub</a>
-  </nav>
+  <div class="top-nav">
+    <div class="top-inner">
+      <div class="logo">
+        <img src="images/TNM.png" alt="logo">
+      </div>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="https://www.linkedin.com/in/allisonneuman/" target="_blank"><li>LinkedIn</li></a>
+            <a href="https://github.com/AlliNeuman" target="_blank"><li>GitHub</li></a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
   <div class="container">
   <div class="contact">
 
@@ -24,9 +39,9 @@
   </div>
   <h3>Alternatively, fill out the form below and I will be in touch.</h3>
   <form class="" action="mailto:alli.neuman@gmail.com" method="post" enctype="text/plain">
-    <input type="text" placeholder="Name" name="yourName" value="">
-    <input type="email" placeholder="Email" name="yourEmail" value="">
-    <textarea name="yourMessage" placeholder="Message" rows="8" cols="80"></textarea>
+    <input type="text" placeholder="Name" name="Contact Name" value="">
+    <input type="email" placeholder="Email" name="Contact Email" value="">
+    <textarea name="Contact Message" placeholder="Message" rows="8" cols="80"></textarea>
     <input type="submit">
   </form>
   <footer>
