@@ -47,7 +47,8 @@ nav {
   position: fixed;
   background: #ffffff;
   top: 0;
-  padding: 10px 0;
+  padding: 10px 20px;
+  z-index:1000;
 }
 
 h1 {
@@ -133,6 +134,7 @@ input::placeholder, textarea::placeholder {
 .education-block {
   border-bottom: 1px solid RGBA(255, 139, 209, 0.3);
   padding-bottom: 20px;
+  z-index: 1;
 }
 .experience-block {
   /* margin-bottom: 20px; */
