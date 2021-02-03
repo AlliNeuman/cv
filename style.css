@@ -186,6 +186,8 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
+  max-width: 768px;
+  margin: 0 auto;
 }
 form input, form textarea {
   margin-bottom: 10px;
@@ -340,6 +342,9 @@ input::placeholder, textarea::placeholder {
 }
 .contact p a:hover {
   border-bottom: 2px solid #ff8bd1;
+}
+.form-block h3 {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
