@@ -315,6 +315,8 @@ input::placeholder, textarea::placeholder {
 }
 .experience-block > span {
   padding-bottom: 20px;
+  font-weight: 800;
+  font-style: italic;
 }
 .work-item {
   width: 100%;
