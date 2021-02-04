@@ -209,9 +209,12 @@ input[type="submit"] {
   background-color: #ff8bd1;
   color: #ffffff;
   border: none;
-  width: 200px;
-  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
   font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 800;
 }
 input[type="submit"]:hover {
   background: #000000;
@@ -245,6 +248,10 @@ input::placeholder, textarea::placeholder {
   color: #ffffff;
   font-size: 16px;
   font-weight: 800;
+}
+/* about */
+.more-about {
+  line-height: 1.6;
 }
 
 /* index */
@@ -347,7 +354,57 @@ input::placeholder, textarea::placeholder {
 .form-block h3 {
   text-align: center;
 }
+/* CV */
+.cv h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid RGBA(255, 139, 209, 0.3);
+  padding-bottom: 8px;
+}
+span, li {
+  line-height: 1.6;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+}
+.app-tools li:before, .work-items li:before {
+  content: '▻';
+  color: #ff8bd1;
+  position: absolute;
+  left:0;
+}
 
+.employment-term {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.employment-title {
+  color: #ff8bd1;
+}
+.employer, .employment-date, .employment-title {
+  width: 100%;
+  display: block;
+  font-weight: 800;
+  line-height: 2;
+}
+
+.app-name {
+  font-weight: 800;
+}
+.app-description {
+  font-style: italic;
+}
+.cv-education-item {
+  display: flex;
+  flex-flow: column wrap;
+}
+.cv-education-item .school {
+  font-weight: 800;
+}
 @media (min-width: 768px) {
   /* global */
   .container {
